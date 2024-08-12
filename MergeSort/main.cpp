@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 
-
 // The merge function receives a pointer to an int vector, the left, mid, and right elements.
 // Splits the vector in left and right and merges them back sorted in the original vector.
 void merge(vector<int>& _array, int _left, int _mid, int _right){
@@ -45,6 +44,9 @@ void merge(vector<int>& _array, int _left, int _mid, int _right){
     }
 
 }
+
+// The function mergeSort receives an array, the left, and right indexes. If left and right index is equal, it's the base case.
+// Otherwise it gets the mid value, and sends both left and right parts to be divided and merged.
 void mergeSort(vector<int>& array, int left, int right){
     if (left < right) {
         int mid = left + (right - left) / 2;
