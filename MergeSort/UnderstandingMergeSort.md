@@ -35,3 +35,7 @@ In the main function, we ask the user for an amount of elements, and we fill a v
 ![Second](image-1.png)
 ![Third](image-2.png)
 ![Fourth](image-3.png)
+
+## Complexity
+Time complexity: O(nlogn)
+Space complexity: O(n)

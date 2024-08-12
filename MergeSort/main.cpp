@@ -21,7 +21,7 @@ void merge(vector<int>& _array, int _left, int _mid, int _right){
     int k = _left;
     // CONQUER
     while(i < n1 && j < n2){
-        if (L[i] <= R[j]){
+        if (L[i] >= R[j]){
             _array[k] = L[i];
             i++;
         }else{
