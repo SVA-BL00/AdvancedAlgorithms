@@ -29,6 +29,6 @@ class HashTable{
         int getPrime(int);
         int universalFunction(int);
         int quadraticProb(int, int);
-        void checkSize();
+        void isLoaded();
 };
 #endif
