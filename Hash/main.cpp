@@ -5,7 +5,7 @@ int main(){
     int op, num;
     HashTable example;
     do{
-        cout << "---EJEMPLO DE HASH TABLE---\n[1] INSERT\n[2] DELETE\n[3] PRINT" << endl;
+        cout << "---EJEMPLO DE HASH TABLE---\n[1] INSERT\n[2] DELETE\n[3] PRINT\n[4] EXIT" << endl;
         cin >> op;
 
         switch (op) {
@@ -22,6 +22,8 @@ int main(){
             case 3:
                 example.displayTable();
                 break;
+            case 4:
+                exit(1);
             default:
                 cout << "No válido" << endl;
         }
